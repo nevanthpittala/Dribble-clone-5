@@ -15,5 +15,5 @@ A modern Dribbble-inspired landing page built using HTML and CSS.
 - CSS3
 - Remix Icons
 
-## Preview
-Frontend clone project inspired by Dribbble's modern design style.
+## Live Demo
+[View-website](https://dribble-clone-5.vercel.app/)
