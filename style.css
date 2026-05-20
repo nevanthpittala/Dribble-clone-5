@@ -363,3 +363,138 @@ html,body{
     display:flex;
     gap:20px;
 }
+.menu-icon{
+    display:none;
+}
+
+@media (max-width:600px){
+    .navbar{
+        padding: 0 15px;
+        height: 70px;
+    }
+    .options .opt{
+        display:none;
+    }
+    .options img{
+        width:75px;
+        margin-right:0;
+    }
+        .nav-button{
+        gap:10px;
+    }
+     .data, .login-button{
+        padding:10px 14px;
+        font-size:12px;
+    }
+    .hero{
+        padding: 0 20px;
+    }
+    .hero h1{
+        font-size:3rem;
+        margin-top:30px;
+        line-height:1.1;
+    }
+
+    .hero p{
+        font-size:1rem;
+        line-height:1.6;
+    }
+
+    .search-bar{
+        width:90%;
+        height:55px;
+        padding:0 8px 0 18px;
+    }
+
+    #search-icon h3{
+        display:none;
+    }
+
+    .categories{
+        padding:0 15px;
+        gap:10px;
+    }
+
+    .category-item{
+        font-size:12px;
+        padding:8px 14px;
+    }
+
+    .filter-section{
+        padding:50px 15px;
+        gap:20px;
+    }
+
+    .filter-links{
+        gap:18px;
+        overflow-x:auto;
+        width:100%;
+        padding-bottom:5px;
+    }
+
+    .filter-links::-webkit-scrollbar{
+        display:none;
+    }
+
+    .filter-links h4{
+        white-space:nowrap;
+        font-size:14px;
+    }
+
+    .card-section{
+        padding:0 15px 40px;
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    .card-image{
+        height:240px;
+    }
+
+    .continue-section{
+        padding:40px 15px;
+    }
+
+    .top-btn{
+        width:42px;
+        height:42px;
+        right:15px;
+    }
+
+    .brand-card{
+        width:160px;
+    }
+
+    .brand-card img{
+        height:90px;
+    }
+
+    .footer{
+        padding:40px 20px;
+    }
+
+    .footer-top{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-links{
+        gap:15px;
+    }
+
+    .footer-links h4{
+        font-size:14px;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .menu-icon{
+        display:block;
+        font-size:24px;
+        cursor:pointer;
+    }
+
+
+}
